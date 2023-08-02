@@ -1,0 +1,174 @@
+.wt{
+    background-color: white;
+}
+.home_img_div{
+    width: 98.9vw;
+}
+.home_img{
+    width:98.93vw;
+    height: 90vh;
+    position: relative;
+}
+.nomad_monk{
+    position: absolute;
+    bottom: 18em;
+    left: 4em;
+    width: 33em;
+    height: 10em;
+    z-index: 1;
+    background-color: rgb(255 248 225 / 30%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: context-menu;
+}
+.nomad_monk h1{
+    color: #ffb94a;
+    text-transform: uppercase;
+    font: normal normal 3em Allerta Stencil;
+}
+.read_more{
+    position: absolute;
+    bottom: 19em;
+    left: 5em;
+    z-index:1;
+    background-color: rgb(255 248 225 / 30%);
+    border-style: none;
+    width: 8em;
+    height: 2em;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+.read_more:hover{
+    color:#ffb94a;
+    background-color: rgb(36, 36, 36);
+}
+.latest_posts{
+    color: grey;
+    font-size: 1rem;
+}
+.blogs_outer_div{
+    width: 93vw;
+    margin:auto;
+    margin-top: 3rem;
+}
+.blogs_inner_div{
+    margin-top: 1em;
+    display:flex;
+    flex-wrap: wrap;
+    gap:3.07rem;
+}
+.blog_card{
+    width:20rem;
+    /* height: 25.7rem; */
+    position: relative;
+    border-radius: 0.5em;
+    cursor: pointer;
+    background-color: white;
+}
+.blog_card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.blog_card img{
+    width: 20em;
+    height: 15em;
+    border-radius: 0.5em;
+}
+.blog_card h3{
+    font-size: 2em;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #ffb94a;
+    padding-left: 0.2em;
+}
+.date{
+    position: absolute;
+    bottom:16.2em;
+    background-color: white;
+    border-bottom-left-radius: 0.1em;
+    /* width:16.9em; */
+    padding: 0.2em 0.59em;
+    color: grey;
+    font-size: 0.8em;
+}
+.blog_short_content{
+    background-color: white;
+    width:22.2em;
+    padding: 0.3em 0;
+    color: grey;
+    font-size: 0.9em;
+    padding-left: 0.4em;
+    box-sizing: border-box;
+}
+.article_btn{
+    border:1px solid #ffb94a;
+    background-color: white;
+    width: 8em;
+    height: 2em;
+    border-radius: 0.3em;
+    cursor: pointer;
+    font-size:0.7em ;
+    font-weight: 600;
+    color:#ffb94a ;
+    margin-left: 0.5em;
+}
+.article_btn:hover{
+    border: 1px solid white;
+    background-color: #ffb94a;
+    color: white;
+}
+.hr1{
+  border-style:none;
+  border-top-style:dotted;
+  border-color:#ffb94a;
+  border-width:5px;
+  width:5%;
+  margin: 4rem auto;
+}
+.profile{
+    text-align: center;
+    margin-bottom:4rem;
+}
+.image_div{
+    margin: auto;
+    width:250px;
+    height: 250px;
+    border-radius: 10rem;
+    background-image: url('C:\Users\Anshul\Desktop\full stack\react\first_proj\src\images\DSC_0187-01.jpeg');
+    background-size: cover;
+    background-position: center;
+    border: 6px solid #ffb94a ;
+}
+.profile h3{
+    text-transform: uppercase;
+    font: normal normal 1.4em Allerta Stencil;
+    margin: 0.3em 0;
+    cursor: pointer;
+}
+.profile p{
+    font-size: 0.9em;
+    color:#ffb94a ;
+    cursor: pointer;
+}
+.profile p:hover{
+    color: #f4a019;
+}
+.footer_img_div{
+    height: 28rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1483943341979-30154bdbb4d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-position: center;
+    background-size: cover;
+    margin: 3rem 0;
+    cursor: context-menu;
+}
+.footer_img_div h3{
+    font-size: 1.9em;
+    font-weight: 400;
+    color: rgb(249, 248, 248);
+    width: 39em;
+    text-align: center;
+}

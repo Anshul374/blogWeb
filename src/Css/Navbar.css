@@ -1,0 +1,106 @@
+.navbar{
+    height: 4.5rem;
+    display:flex;
+    align-items: center;
+    background-color: #faf5ef;
+    /* background: rgba(0, 0, 0,0.1); */
+    box-shadow: 6px -3px 11px 0px #b8b9bc, 14px -14px 11px 0px #b8b9bc;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100vw;
+}
+.logo{
+    width: 9rem;
+    height: 4rem;
+    margin-left: 3rem;
+}
+.left_div{
+    display: flex;
+    width: 29rem;
+    justify-content: space-around;
+    height: 3rem;
+    align-items: center;
+    margin-left: 3rem;
+    
+}
+.left_div h4{
+    list-style-type:none;
+    cursor: pointer;
+    font-weight: 350;
+    font-size:1em;
+}
+h4 a{
+    text-decoration: none;
+    color:  black;
+}
+h4 a:hover{
+    color: #ffb94a;
+}
+.mid_div{
+    margin-left: 14rem;
+    width: 25rem;
+    height: 1.8rem;
+    display: flex;
+    align-items: center;
+    background-color: #fbfaf9;
+    /* background-color: rgba(0, 0, 0,0); */
+    /* border: 0.5px solid white; */
+}
+.search_lo{
+    width: 0.8em;
+    height: 0.8em;
+    margin-left: 0.5rem;
+    margin-right: 0.7rem;
+}
+.mid_input{
+    width: 27.3em;
+    height:1.5rem ;
+    border-style:  none;
+    background-color: #fbfaf9;
+    /* background-color: rgba(0, 0, 0,0); */
+}
+.mid_input:focus{
+    outline: none;
+}
+.mid_input::placeholder{
+    color:rgb(158, 156, 156);
+    font-weight: 350;
+    font-size: 0.9em;
+}
+.right_div{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+    width: 6rem;
+}
+.profile_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.profile_div img{
+    width: 1.2em;
+    height:1.2em;
+}
+.profile_div h4{
+    font-size: 0.8em;
+    font-weight: 380;
+}
+.like_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.like_div img{
+    width: 1.2em;
+    height: 1.2em;
+}
+.like_div h4{
+    font-size: 0.8em;
+    font-weight: 380;
+}

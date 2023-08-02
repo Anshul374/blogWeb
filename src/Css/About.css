@@ -1,0 +1,355 @@
+.about_img_div{
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1519293978507-9c6bb9f82eda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.over_img_text_div{
+
+    width: 32rem;
+    height: 32rem;
+    position: absolute;
+    z-index: 1;
+    top: 7.88rem;
+    right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    background-color: rgba(250, 245, 239, 0.83);
+    border: 10px solid white;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: context-menu;
+}
+.over_img_text_div h2{
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5em;
+    font-weight:300;
+    text-align: center;
+    width: 9em;
+    color: rgb(28, 28, 28);
+}
+.over_img_text_div p{
+    /* height: 10em; */
+    text-align: center;
+    line-height: 2;
+    font-size: 1.2em;
+    margin: 2em 0;
+    width: 24em;
+}
+strong{
+    color: rgb(28, 28, 28);
+}
+.over_img_text_div h3{
+    font-size: 1.5em;
+    width: 16em;
+    text-align: center;
+    color: rgb(28, 28, 28);
+}
+.over_img_text_div p{
+    color: rgb(33, 33, 33);
+}
+.mid_body_div{
+    margin-top: 4rem;
+}
+.mantra_div{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: #f8f6f6;
+}
+.mantra_img_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 45vh;
+    background-image: url("https://images.unsplash.com/photo-1447069387593-a5de0862481e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
+    background-size: cover;
+    cursor: context-menu;
+}
+.mantra_text_div{
+    width: 50em;
+    margin: auto;
+    height: 13em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid white;
+}
+.mantra_text_div h3{
+    font-size: 1.9em;
+    color: white;
+}
+.mantra_text_div p{
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+    line-height: 1.6;
+}
+.visit_state{
+    font-size: 1.3em;
+    width: 60em;
+    line-height: 1.5;
+    color: rgb(33, 33, 33);
+    cursor: context-menu;
+}
+.about_self_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#f8f6f6 ;
+    cursor: context-menu;
+}
+.about_self_in_div{
+    margin-top: 4rem;
+    width: 75vw;
+    height: 75vh;
+    display: flex;
+    justify-content: space-between;
+}
+.self_text_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.self_text_div h3{
+    height: 1.5em;
+    text-align: center;
+    font-size: 2.5em;
+    color:rgb(59, 58, 58);
+}
+.self_text_div p{
+    font-size: 1.2em;
+    width: 40em;
+    color: rgb(33, 33, 33);
+    line-height: 1.6em;
+}
+.self_img_div{
+     width:353px;
+     height: 533.8px;
+     background-image: url('C:\Users\Anshul\Desktop\full stack\react\first_proj\src\images\IMG_20220823_203838_893.jpg');
+     background-size: cover;
+     background-position: center;
+}
+.forbes_text{
+    margin:5em 0;
+    font-size: 1.7em;
+    font-weight: 700;
+    color: rgb(39, 39, 70);
+    cursor: context-menu;
+}
+.forbes_text strong{
+    color: rgb(87, 55, 142);
+    font-weight: 550;
+}
+.feature_div{
+    width: 93vw;
+    margin: auto;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    /* align-items: center; */
+    background-color: #d8dce0;
+    cursor: context-menu;
+}
+.feature_div h3{
+    text-align: center;
+    font-size: 1.8em;
+    color: rgb(64, 63, 63);
+}
+.feature_logo_div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5em;
+}
+.feature_logo_div img{
+    width: 125px;
+    height: 53px;
+}
+.award_2{
+    margin: 4rem 0;
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: 700;
+    color: rgb(39, 39, 70);
+    cursor: context-menu;
+}
+.award_2 em{
+    color: rgb(87, 55, 142);
+    font-weight: 550;
+}
+.award_2 strong{
+    color: rgb(87, 55, 142);
+    font-weight: 550;
+}
+.why_div{
+    width: 93vw;
+    height: 40rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top:0.3px solid rgb(181, 178, 178);
+    cursor: context-menu;
+}
+.why_div h3{
+    font-size: 2em;
+    color: rgb(64, 63, 63);
+}
+.why_in_div{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    height: 30em;
+}
+.why_in_left_img_div{
+    background-image: url("https://images.unsplash.com/photo-1612272904299-7031611d1d34?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80");
+    width:353px;
+     height: 479.5px;
+     background-position: center;
+     background-size: cover;
+}
+.why_in_right_div{
+    width: 50em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.why_in_right_div p{
+    font-size: 1.2em;
+    /* width: 40em; */
+    color: rgb(33, 33, 33);
+    line-height: 1.6em;
+}
+.help_you{
+    width: 93vw;
+    height: 42rem;
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top:0.3px solid rgb(181, 178, 178);
+    cursor: context-menu;
+}
+.help_you h3{
+    font-size: 2em;
+    color: rgb(64, 63, 63);
+}
+.help_you_in_div{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    height: 30em;
+}
+.help_you_pdiv{
+    width: 50em;
+
+}
+.help_you_pdiv p{
+    font-size: 1.2em;
+    /* width: 40em; */
+    color: rgb(33, 33, 33);
+    line-height: 1.7em;
+    margin-bottom: 3em;
+}
+.help_you_in_img_div{
+    background-image: url("https://images.unsplash.com/photo-1612272866571-f28f53020df9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+    width:353px;
+    height: 437px;
+    background-position: center;
+    background-size: cover;
+}
+.expect_div{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around ;
+    align-items: center;
+    height: 20rem;
+    width: 93vw;
+    margin: auto;
+    margin-top: 5rem;
+    border-top:0.3px solid rgb(181, 178, 178) ;
+    cursor: context-menu;
+}
+.expect_div h3{
+    font-size: 2em;
+    color: rgb(64, 63, 63);
+    width: 17em;
+    text-align: center;
+}
+.expect_logos_div{
+    width: 60vw;
+    height: 8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.expect_img_div{
+    height: 8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.expect_img_div h4{
+    font-size: 1.3em;
+    color: rgb(64, 63, 63);
+    width: 8em;
+    text-align: center;
+}
+.expect_img_div img{
+    width: 100px;
+    height: 53px;
+}
+.expect_img4_div img{
+    width: 100px;
+    height: 58px;
+}
+.expect_img4_div{
+    height: 8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.expect_img4_div h4{
+    font-size: 1.3em;
+    color: rgb(64, 63, 63);
+    width: 8em;
+    text-align: center;
+    margin-top: 0.4em;
+}
+.footer_img_div{
+    height: 28rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1483943341979-30154bdbb4d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-position: center;
+    background-size: cover;
+    margin: 3rem 0;
+    cursor: context-menu;
+}
+.footer_img_div h3{
+    font-size: 1.9em;
+    font-weight: 400;
+    color: rgb(249, 248, 248);
+    width: 39em;
+    text-align: center;
+}
