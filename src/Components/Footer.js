@@ -7,6 +7,7 @@ import twitter from "../images/twitter (2).png";
 import youtube from "../images/youtube.png";
 
 export default function Footer() {
+  console.log("hi");
   return (
     <footer className="footer_div">
       <p className="footer_left">© Copyright 2016 NomadicMonk</p>
